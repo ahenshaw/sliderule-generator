@@ -78,7 +78,7 @@ impl Scale {
                             .set("x", tx)
                             .set("y", length + 5.0)
                             .set("font-size", "8")
-                            .set("font-family", "Arial")
+                            .set("font-family", "Nimbus Sans Narrow")
                             .set("text-anchor", "middle")
                             .set("dominant-baseline", "central")
                             .add(svg::node::Text::new(format!("{x}"))),
